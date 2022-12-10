@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Cursos : <code>Ingenieriacivil</code>\n○ Facebook : <a href='https://www.facebook.com/profile.php?id=100069992134197/'>Facebook</a>\n○ Descargas Bibliocad : <a href='https://youtu.be/gBm6BOMu-_0'>Click Aqui</a>\n○ Canal : @cursocivil\n○ Admi Grupo : @Comun_Ing_Arq_bot</b>",
+            text = f"<b>○ Cursos : <code>Ingenieriacivil</code>\n○ Facebook : <a href='https://www.facebook.com/profile.php?id=100069992134197'>Facebook</a>\n○ Descargas Bibliocad : <a href='https://youtu.be/gBm6BOMu-_0'>Click Aqui</a>\n○ Canal : @cursocivil\n○ Admi Grupo : @Comun_Ing_Arq_bot</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
