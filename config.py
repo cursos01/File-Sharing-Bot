@@ -61,7 +61,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
+USER_REPLY_TEXT = "❌No me envíes mensajes directamente aquí o te bloquearé, Si deseas conversar con el Admi @Comun_Ing_Arq_bot!"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
