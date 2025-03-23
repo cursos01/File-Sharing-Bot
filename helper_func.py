@@ -1,4 +1,4 @@
-#(©)Codexbotz
+#(©)Cursocivil
 
 import base64
 import re
